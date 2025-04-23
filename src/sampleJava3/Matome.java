@@ -9,7 +9,7 @@ public class Matome {
 		// TODO 自動生成されたメソッド・スタブ
 	    HashMap<String, Integer> fru = new HashMap<>();
 
-        // キーと値のペアを追加（国名と首都など）
+        
         fru.put( "りんご",100);
         fru.put( "みかん",200);
         fru.put( "いちご",300);
