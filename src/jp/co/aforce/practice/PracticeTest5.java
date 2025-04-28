@@ -1,27 +1,30 @@
 package jp.co.aforce.practice;
 
 import java.util.ArrayList;
-import java.util.Random;
+
 
 public class PracticeTest5 {
 
 	public static void main(String[] args) {
 		// 題１
-		Random r = new Random(); 
+		 
 		int fortune = (int)(Math.random() * 4) + 1;
 		String str = "";
 		switch(fortune) {
-		
-		case 1: str = "fortuneが１なら吉です";break;
-		case 2: str = "fortuneが 2 なら中吉です";break;
-		case 3: str = "fortuneが３なら大吉です";break;
-		case 4: str = "fortuneが４なら凶です";break;
-		
+			case 1: str = "fortuneが１なら吉です";
+				break;
+			case 2: str = "fortuneが 2 なら中吉です";
+				break;
+			case 3: str = "fortuneが３なら大吉です";
+				break;
+			case 4: str = "fortuneが４なら凶です";
+				break;
 		}
 		System.out.println(str);
 		// 題２
 		int i = 1;
 		while(i<100) {
+			
 			
 			if(i%7 == 0) {
 				System.out.print(i + ",");
