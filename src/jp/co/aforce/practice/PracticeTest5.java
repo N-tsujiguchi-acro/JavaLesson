@@ -36,8 +36,8 @@ public class PracticeTest5 {
 		// 題３
 		for(int x =1; x<=9; x++ ) {
 			for(int z = 1; z <=9; z++ ) {
-				System.out.print(""+ x * z + "");
-				System.out.print("");
+				System.out.printf("%2d ", x * z );
+				
 			}
 			System.out.println("");
 		}
