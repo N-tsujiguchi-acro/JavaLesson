@@ -9,6 +9,7 @@ public class Rekkyo_2 {
 		for(Season s : Season.values()) {
 			System.out.println(s);
 		}
+		
 	}
 
 }
